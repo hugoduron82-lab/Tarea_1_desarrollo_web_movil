@@ -1,7 +1,7 @@
 {
   "name": "tarea1",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -9,13 +9,18 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "babel-preset-expo": "^55.0.18",
     "expo": "~54.0.33",
     "expo-status-bar": "~3.0.9",
     "react": "19.1.0",
-    "react-native": "0.81.5"
+    "react-dom": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-web": "^0.21.0",
+    "tailwindcss-react-native": "^1.7.10"
   },
   "devDependencies": {
     "@types/react": "~19.1.0",
+    "prettier-plugin-tailwindcss": "^0.8.0",
     "typescript": "~5.9.2"
   },
   "private": true
